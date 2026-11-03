@@ -1,9 +1,50 @@
 {
   "simulation_only": true,
-  "last_run": "2026-11-03T10:10:43.329794+00:00",
+  "last_run": "2026-11-03T10:57:40.125976+00:00",
   "starting_balance_aud": 300,
-  "cash_aud": 300.0,
-  "holdings": [],
-  "trades": [],
+  "cash_aud": 210.0,
+  "holdings": [
+    {
+      "symbol": "PUMP",
+      "quantity": 5107.791180067624,
+      "entry_aud": 0.00583814
+    },
+    {
+      "symbol": "ARB",
+      "quantity": 133.0127704749118,
+      "entry_aud": 0.224189
+    },
+    {
+      "symbol": "OP",
+      "quantity": 190.23802081007457,
+      "entry_aud": 0.156751
+    }
+  ],
+  "trades": [
+    {
+      "time": "2026-11-03T10:57:40.125976+00:00",
+      "symbol": "OP",
+      "side": "BUY",
+      "price_aud": 0.156751,
+      "amount_aud": 30.0,
+      "reason": "1% above previous 4 average"
+    },
+    {
+      "time": "2026-11-03T10:57:40.125976+00:00",
+      "symbol": "ARB",
+      "side": "BUY",
+      "price_aud": 0.224189,
+      "amount_aud": 30.0,
+      "reason": "1% above previous 4 average"
+    },
+    {
+      "time": "2026-11-03T10:57:40.125976+00:00",
+      "symbol": "PUMP",
+      "side": "BUY",
+      "price_aud": 0.00583814,
+      "amount_aud": 30.0,
+      "reason": "1% above previous 4 average"
+    }
+  ],
   "tracked_assets": 46
 }
