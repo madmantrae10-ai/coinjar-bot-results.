@@ -1,9 +1,14 @@
 {
   "simulation_only": true,
-  "last_run": "2026-11-03T13:47:03.891305+00:00",
+  "last_run": "2026-11-03T14:40:10.384124+00:00",
   "starting_balance_aud": 300,
-  "cash_aud": 181.94313274070134,
+  "cash_aud": 166.94313274070134,
   "holdings": [
+    {
+      "symbol": "UNI",
+      "quantity": 1.4129400570884871,
+      "entry_aud": 10.51
+    },
     {
       "symbol": "INJ",
       "quantity": 2.88394584139265,
@@ -26,6 +31,17 @@
     }
   ],
   "trades": [
+    {
+      "time": "2026-11-03T14:40:10.384124+00:00",
+      "symbol": "UNI",
+      "side": "BUY",
+      "price_aud": 10.51,
+      "amount_aud": 15.0,
+      "fee_aud": 0.15,
+      "signal_strength": "weak",
+      "momentum_pct": 1.35,
+      "reason": "Momentum 1.35% vs prior 4 average"
+    },
     {
       "time": "2026-11-03T13:47:03.891305+00:00",
       "symbol": "OP",
@@ -136,6 +152,6 @@
       "winning_trades": 3
     }
   },
-  "recorded_fees_aud": 1.52140905,
+  "recorded_fees_aud": 1.67140905,
   "realized_pnl_aud": 1.21586002
 }
