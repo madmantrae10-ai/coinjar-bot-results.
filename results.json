@@ -1,13 +1,13 @@
 {
   "simulation_only": true,
-  "last_run": "2026-11-03T21:12:25.156251+00:00",
+  "last_run": "2026-11-03T21:51:20.374299+00:00",
   "starting_balance_aud": 300,
-  "cash_aud": 166.94313274070134,
+  "cash_aud": 181.74843486113087,
   "holdings": [
     {
-      "symbol": "UNI",
-      "quantity": 1.4129400570884871,
-      "entry_aud": 10.51
+      "symbol": "FET",
+      "quantity": 65.95310001776514,
+      "entry_aud": 0.22516
     },
     {
       "symbol": "INJ",
@@ -15,9 +15,9 @@
       "entry_aud": 10.34
     },
     {
-      "symbol": "PEPE",
-      "quantity": 4346938.775510204,
-      "entry_aud": 6.86e-06
+      "symbol": "BONK",
+      "quantity": 3621951.2195121953,
+      "entry_aud": 4.1e-06
     },
     {
       "symbol": "SAND",
@@ -31,6 +31,54 @@
     }
   ],
   "trades": [
+    {
+      "time": "2026-11-03T21:51:20.374299+00:00",
+      "symbol": "BONK",
+      "side": "BUY",
+      "price_aud": 4.1e-06,
+      "amount_aud": 15.0,
+      "fee_aud": 0.15,
+      "signal_strength": "weak",
+      "momentum_pct": 1.1721,
+      "reason": "Momentum 1.17% vs prior 4 average"
+    },
+    {
+      "time": "2026-11-03T21:51:20.374299+00:00",
+      "symbol": "PEPE",
+      "side": "SELL",
+      "price_aud": 7.07e-06,
+      "amount_aud": 30.42552857,
+      "gross_aud": 30.73285714,
+      "fee_aud": 0.30732857,
+      "realized_pnl_aud": 0.30431645,
+      "cost_basis_aud": 30.12121212,
+      "signal_strength": "legacy",
+      "reason": "Target +3%"
+    },
+    {
+      "time": "2026-11-03T21:51:20.374299+00:00",
+      "symbol": "FET",
+      "side": "BUY",
+      "price_aud": 0.22516,
+      "amount_aud": 15.0,
+      "fee_aud": 0.15,
+      "signal_strength": "weak",
+      "momentum_pct": 1.346,
+      "reason": "Momentum 1.35% vs prior 4 average"
+    },
+    {
+      "time": "2026-11-03T21:51:20.374299+00:00",
+      "symbol": "UNI",
+      "side": "SELL",
+      "price_aud": 10.28,
+      "amount_aud": 14.37977355,
+      "gross_aud": 14.52502379,
+      "fee_aud": 0.14525024,
+      "realized_pnl_aud": -0.62022645,
+      "cost_basis_aud": 15.0,
+      "signal_strength": "weak",
+      "reason": "Stop -2%"
+    },
     {
       "time": "2026-11-03T14:40:10.384124+00:00",
       "symbol": "UNI",
@@ -146,12 +194,17 @@
   ],
   "tracked_assets": 46,
   "performance_by_signal": {
+    "weak": {
+      "closed_trades": 1,
+      "realized_pnl_aud": -0.62022645,
+      "winning_trades": 0
+    },
     "legacy": {
-      "closed_trades": 3,
-      "realized_pnl_aud": 1.21586002,
-      "winning_trades": 3
+      "closed_trades": 4,
+      "realized_pnl_aud": 1.52017647,
+      "winning_trades": 4
     }
   },
-  "recorded_fees_aud": 1.67140905,
-  "realized_pnl_aud": 1.21586002
+  "recorded_fees_aud": 2.42398786,
+  "realized_pnl_aud": 0.89995002
 }
