@@ -1,26 +1,49 @@
 {
   "simulation_only": true,
-  "last_run": "2026-11-04T02:25:07.667967+00:00",
+  "last_run": "2026-11-04T03:13:12.953214+00:00",
   "starting_balance_aud": 300,
-  "cash_aud": 224.79802819547734,
-  "holdings": [
-    {
-      "symbol": "INJ",
-      "quantity": 2.88394584139265,
-      "entry_aud": 10.34
-    },
-    {
-      "symbol": "BONK",
-      "quantity": 3621951.2195121953,
-      "entry_aud": 4.1e-06
-    },
-    {
-      "symbol": "SAND",
-      "quantity": 450.09242144177443,
-      "entry_aud": 0.06492
-    }
-  ],
+  "cash_aud": 296.12397200398897,
+  "holdings": [],
   "trades": [
+    {
+      "time": "2026-11-04T03:13:12.953214+00:00",
+      "symbol": "SAND",
+      "side": "SELL",
+      "price_aud": 0.063086,
+      "amount_aud": 28.11058519,
+      "gross_aud": 28.3945305,
+      "fee_aud": 0.2839453,
+      "realized_pnl_aud": -1.40456632,
+      "cost_basis_aud": 29.51515152,
+      "signal_strength": "strong",
+      "reason": "Stop -2%"
+    },
+    {
+      "time": "2026-11-04T03:13:12.953214+00:00",
+      "symbol": "BONK",
+      "side": "SELL",
+      "price_aud": 4.01e-06,
+      "amount_aud": 14.37878415,
+      "gross_aud": 14.52402439,
+      "fee_aud": 0.14524024,
+      "realized_pnl_aud": -0.62121585,
+      "cost_basis_aud": 15.0,
+      "signal_strength": "weak",
+      "reason": "Stop -2%"
+    },
+    {
+      "time": "2026-11-04T03:13:12.953214+00:00",
+      "symbol": "INJ",
+      "side": "SELL",
+      "price_aud": 10.1,
+      "amount_aud": 28.83657447,
+      "gross_aud": 29.127853,
+      "fee_aud": 0.29127853,
+      "realized_pnl_aud": -1.28463765,
+      "cost_basis_aud": 30.12121212,
+      "signal_strength": "legacy",
+      "reason": "Stop -2%"
+    },
     {
       "time": "2026-11-04T02:25:07.667967+00:00",
       "symbol": "ALGO",
@@ -211,21 +234,21 @@
   "tracked_assets": 46,
   "performance_by_signal": {
     "weak": {
-      "closed_trades": 2,
-      "realized_pnl_aud": -1.3466605,
+      "closed_trades": 3,
+      "realized_pnl_aud": -1.96787635,
       "winning_trades": 0
     },
     "strong": {
-      "closed_trades": 1,
-      "realized_pnl_aud": -1.34518474,
+      "closed_trades": 2,
+      "realized_pnl_aud": -2.74975106,
       "winning_trades": 0
     },
     "legacy": {
-      "closed_trades": 4,
-      "realized_pnl_aud": 1.52017647,
+      "closed_trades": 5,
+      "realized_pnl_aud": 0.23553882,
       "winning_trades": 4
     }
   },
-  "recorded_fees_aud": 2.85883223,
-  "realized_pnl_aud": -1.17166877
+  "recorded_fees_aud": 3.5792963,
+  "realized_pnl_aud": -4.48208859
 }
