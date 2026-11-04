@@ -4,16 +4,42 @@
     "momentum": {
       "name": "momentum",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.284395+00:00",
+      "last_run": "2026-11-04T13:36:07.855125+00:00",
       "starting_balance_aud": 300,
-      "cash_aud": 147.71203658,
-      "invested_cost_aud": 150.0,
+      "cash_aud": 161.48989558,
+      "invested_cost_aud": 135.0,
       "open_positions": 5,
-      "closed_trades": 14,
+      "closed_trades": 15,
       "wins": 8,
-      "realized_pnl_aud": -2.894024,
+      "realized_pnl_aud": -4.11616501,
       "unrealized_pnl_aud": null,
       "recent_trades": [
+        {
+          "time": "2026-11-04T13:36:07.855125+00:00",
+          "symbol": "ALGO",
+          "side": "BUY",
+          "price_aud": 0.138743,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "buy_fee_rate": 0.01,
+          "signal_strength": "moderate",
+          "momentum_pct": 1.6335,
+          "reason": "Momentum 1.63% vs prior 4 average"
+        },
+        {
+          "time": "2026-11-04T13:36:07.855125+00:00",
+          "symbol": "UNI",
+          "side": "SELL",
+          "price_aud": 10.44,
+          "amount_aud": 43.77785899,
+          "gross_aud": 43.82168067,
+          "fee_aud": 0.04382168,
+          "sell_fee_rate": 0.001,
+          "realized_pnl_aud": -1.22214101,
+          "cost_basis_aud": 45.0,
+          "signal_strength": "strong",
+          "reason": "Stop -2%"
+        },
         {
           "time": "2026-11-04T11:37:45.530060+00:00",
           "symbol": "RENDER",
@@ -172,39 +198,13 @@
           "signal_strength": "weak",
           "momentum_pct": 1.2517,
           "reason": "Momentum 1.25% vs prior 4 average"
-        },
-        {
-          "time": "2026-11-04T03:13:12.953214+00:00",
-          "symbol": "SAND",
-          "side": "SELL",
-          "price_aud": 0.063086,
-          "amount_aud": 28.11058519,
-          "gross_aud": 28.3945305,
-          "fee_aud": 0.2839453,
-          "realized_pnl_aud": -1.40456632,
-          "cost_basis_aud": 29.51515152,
-          "signal_strength": "strong",
-          "reason": "Stop -2%"
-        },
-        {
-          "time": "2026-11-04T03:13:12.953214+00:00",
-          "symbol": "BONK",
-          "side": "SELL",
-          "price_aud": 4.01e-06,
-          "amount_aud": 14.37878415,
-          "gross_aud": 14.52402439,
-          "fee_aud": 0.14524024,
-          "realized_pnl_aud": -0.62121585,
-          "cost_basis_aud": 15.0,
-          "signal_strength": "weak",
-          "reason": "Stop -2%"
         }
       ]
     },
     "pullback": {
       "name": "pullback",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.421691+00:00",
+      "last_run": "2026-11-04T13:36:07.980948+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -218,7 +218,7 @@
     "rsi_reversal": {
       "name": "rsi_reversal",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.571970+00:00",
+      "last_run": "2026-11-04T13:36:08.088717+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -232,7 +232,7 @@
     "ema_crossover": {
       "name": "ema_crossover",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.571970+00:00",
+      "last_run": "2026-11-04T13:36:08.088717+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -246,7 +246,7 @@
     "breakout": {
       "name": "breakout",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.571970+00:00",
+      "last_run": "2026-11-04T13:36:08.088717+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -260,7 +260,7 @@
     "trend_following": {
       "name": "trend_following",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.571970+00:00",
+      "last_run": "2026-11-04T13:36:08.088717+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -274,7 +274,7 @@
     "mean_reversion": {
       "name": "mean_reversion",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.571970+00:00",
+      "last_run": "2026-11-04T13:36:08.088717+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -288,7 +288,7 @@
     "macd": {
       "name": "macd",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.571970+00:00",
+      "last_run": "2026-11-04T13:36:08.088717+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -302,7 +302,7 @@
     "bollinger_bands": {
       "name": "bollinger_bands",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.571970+00:00",
+      "last_run": "2026-11-04T13:36:08.088717+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -316,7 +316,7 @@
     "multi_indicator": {
       "name": "multi_indicator",
       "simulation_only": true,
-      "last_run": "2026-11-04T12:23:39.571970+00:00",
+      "last_run": "2026-11-04T13:36:08.088717+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -328,9 +328,9 @@
       "recent_trades": []
     }
   },
-  "last_run": "2026-11-04T12:23:39.284395+00:00",
+  "last_run": "2026-11-04T13:36:07.855125+00:00",
   "starting_balance_aud": 300,
-  "cash_aud": 147.71203658471066,
+  "cash_aud": 161.48989557630728,
   "holdings": [
     {
       "symbol": "XRP",
@@ -339,35 +339,16 @@
       "market_type": "exchange",
       "buy_fee_rate_assumed": 0.001,
       "sell_fee_rate_assumed": 0.001,
-      "estimated_sell_aud": 14.81884764,
-      "estimated_net_pnl_aud": -0.18115236,
+      "estimated_sell_aud": 14.85960354,
+      "estimated_net_pnl_aud": -0.14039646,
       "estimate_status": "estimated",
       "source": "CoinJar Exchange public order book",
-      "best_bid_aud": 1.818,
-      "best_ask_aud": 1.822,
-      "spread_pct": 0.21954,
-      "quote_observed_at": "2026-11-04T12:23:41.112704+00:00",
+      "best_bid_aud": 1.823,
+      "best_ask_aud": 1.826,
+      "spread_pct": 0.16429,
+      "quote_observed_at": "2026-11-04T13:36:09.784733+00:00",
       "entry_aud": 1.82,
       "reference_price_aud": 1.82,
-      "reference_price_source": "last bot CoinGecko AUD observation"
-    },
-    {
-      "symbol": "UNI",
-      "quantity": 4.197478991596638,
-      "cost_aud": 45.0,
-      "market_type": "exchange",
-      "buy_fee_rate_assumed": 0.001,
-      "sell_fee_rate_assumed": 0.001,
-      "estimated_sell_aud": 44.11332151,
-      "estimated_net_pnl_aud": -0.88667849,
-      "estimate_status": "estimated",
-      "source": "CoinJar Exchange public order book",
-      "best_bid_aud": 10.52,
-      "best_ask_aud": 10.84,
-      "spread_pct": 2.95203,
-      "quote_observed_at": "2026-11-04T12:23:41.279608+00:00",
-      "entry_aud": 10.71,
-      "reference_price_aud": 10.57,
       "reference_price_source": "last bot CoinGecko AUD observation"
     },
     {
@@ -377,16 +358,16 @@
       "market_type": "exchange",
       "buy_fee_rate_assumed": 0.001,
       "sell_fee_rate_assumed": 0.001,
-      "estimated_sell_aud": 14.78783471,
-      "estimated_net_pnl_aud": -0.21216529,
+      "estimated_sell_aud": 14.7566038,
+      "estimated_net_pnl_aud": -0.2433962,
       "estimate_status": "estimated",
       "source": "CoinJar Exchange public order book",
-      "best_bid_aud": 28.41,
-      "best_ask_aud": 29.11,
-      "spread_pct": 2.40467,
-      "quote_observed_at": "2026-11-04T12:23:41.444354+00:00",
+      "best_bid_aud": 28.35,
+      "best_ask_aud": 29.06,
+      "spread_pct": 2.44322,
+      "quote_observed_at": "2026-11-04T13:36:10.059557+00:00",
       "entry_aud": 28.76,
-      "reference_price_aud": 28.6,
+      "reference_price_aud": 28.55,
       "reference_price_source": "last bot CoinGecko AUD observation"
     },
     {
@@ -402,10 +383,10 @@
       "source": null,
       "entry_aud": 2.22,
       "app_fee_rate_assumed": 0.01,
-      "reference_price_aud": 2.19,
+      "reference_price_aud": 2.18,
       "reference_price_source": "last bot CoinGecko AUD observation",
-      "indicative_sell_aud": 29.00566216,
-      "indicative_net_pnl_aud": -0.99433784,
+      "indicative_sell_aud": 28.87321622,
+      "indicative_net_pnl_aud": -1.12678378,
       "indicative_note": "Reference-price estimate after assumed fee; spread and liquidity NOT included"
     },
     {
@@ -421,23 +402,68 @@
       "source": null,
       "entry_aud": 327.22,
       "app_fee_rate_assumed": 0.01,
-      "reference_price_aud": 325.05,
+      "reference_price_aud": 325.87,
       "reference_price_source": "last bot CoinGecko AUD observation",
-      "indicative_sell_aud": 43.81201554,
-      "indicative_net_pnl_aud": -1.18798446,
+      "indicative_sell_aud": 43.92253962,
+      "indicative_net_pnl_aud": -1.07746038,
       "indicative_note": "Reference-price estimate after assumed fee; spread and liquidity NOT included"
+    },
+    {
+      "symbol": "ALGO",
+      "quantity": 214.06485372234994,
+      "cost_aud": 30.0,
+      "market_type": "exchange",
+      "buy_fee_rate_assumed": 0.001,
+      "sell_fee_rate_assumed": 0.001,
+      "estimated_sell_aud": 29.55417902,
+      "estimated_net_pnl_aud": -0.44582098,
+      "estimate_status": "estimated",
+      "source": "CoinJar Exchange public order book",
+      "best_bid_aud": 0.1382,
+      "best_ask_aud": 0.142,
+      "spread_pct": 2.67606,
+      "quote_observed_at": "2026-11-04T13:36:10.340442+00:00",
+      "entry_aud": 0.138743,
+      "reference_price_aud": 0.138743,
+      "reference_price_source": "last bot CoinGecko AUD observation"
     }
   ],
   "market_data_status": "published_market_list",
   "market_estimates_note": "Read-only snapshot; estimated, not executable quotes. App-only sale prices unavailable. Existing purchases retain original recorded costs.",
   "pullback": {
-    "last_run": "2026-11-04T12:23:39.421691+00:00",
+    "last_run": "2026-11-04T13:36:07.980948+00:00",
     "cash_aud": 300.0,
     "holdings": [],
     "trades": [],
     "market_data_status": "published_market_list"
   },
   "trades": [
+    {
+      "time": "2026-11-04T13:36:07.855125+00:00",
+      "symbol": "ALGO",
+      "side": "BUY",
+      "price_aud": 0.138743,
+      "amount_aud": 30.0,
+      "fee_aud": 0.3,
+      "buy_fee_rate": 0.01,
+      "signal_strength": "moderate",
+      "momentum_pct": 1.6335,
+      "reason": "Momentum 1.63% vs prior 4 average"
+    },
+    {
+      "time": "2026-11-04T13:36:07.855125+00:00",
+      "symbol": "UNI",
+      "side": "SELL",
+      "price_aud": 10.44,
+      "amount_aud": 43.77785899,
+      "gross_aud": 43.82168067,
+      "fee_aud": 0.04382168,
+      "sell_fee_rate": 0.001,
+      "realized_pnl_aud": -1.22214101,
+      "cost_basis_aud": 45.0,
+      "signal_strength": "strong",
+      "reason": "Stop -2%"
+    },
     {
       "time": "2026-11-04T11:37:45.530060+00:00",
       "symbol": "RENDER",
@@ -836,8 +862,8 @@
       "winning_trades": 2
     },
     "strong": {
-      "closed_trades": 2,
-      "realized_pnl_aud": -2.74975106,
+      "closed_trades": 3,
+      "realized_pnl_aud": -3.97189207,
       "winning_trades": 0
     },
     "legacy": {
@@ -846,6 +872,6 @@
       "winning_trades": 4
     }
   },
-  "recorded_fees_aud": 5.94550558,
-  "realized_pnl_aud": -2.894024
+  "recorded_fees_aud": 6.28932726,
+  "realized_pnl_aud": -4.11616501
 }
