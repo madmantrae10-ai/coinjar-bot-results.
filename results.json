@@ -1,10 +1,91 @@
 {
   "simulation_only": true,
-  "last_run": "2026-11-04T03:59:11.030026+00:00",
+  "last_run": "2026-11-04T04:48:16.708768+00:00",
   "starting_balance_aud": 300,
-  "cash_aud": 296.12397200398897,
-  "holdings": [],
+  "cash_aud": 191.12397200398897,
+  "holdings": [
+    {
+      "symbol": "XRP",
+      "quantity": 8.159340659340659,
+      "entry_aud": 1.82
+    },
+    {
+      "symbol": "APT",
+      "quantity": 16.874520610209938,
+      "entry_aud": 0.880025
+    },
+    {
+      "symbol": "UNI",
+      "quantity": 1.4431486880466473,
+      "entry_aud": 10.29
+    },
+    {
+      "symbol": "AAVE",
+      "quantity": 0.1625615763546798,
+      "entry_aud": 182.7
+    },
+    {
+      "symbol": "INJ",
+      "quantity": 2.869565217391304,
+      "entry_aud": 10.35
+    }
+  ],
   "trades": [
+    {
+      "time": "2026-11-04T04:48:16.708768+00:00",
+      "symbol": "INJ",
+      "side": "BUY",
+      "price_aud": 10.35,
+      "amount_aud": 30.0,
+      "fee_aud": 0.3,
+      "signal_strength": "moderate",
+      "momentum_pct": 1.5453,
+      "reason": "Momentum 1.55% vs prior 4 average"
+    },
+    {
+      "time": "2026-11-04T04:48:16.708768+00:00",
+      "symbol": "AAVE",
+      "side": "BUY",
+      "price_aud": 182.7,
+      "amount_aud": 30.0,
+      "fee_aud": 0.3,
+      "signal_strength": "moderate",
+      "momentum_pct": 1.8366,
+      "reason": "Momentum 1.84% vs prior 4 average"
+    },
+    {
+      "time": "2026-11-04T04:48:16.708768+00:00",
+      "symbol": "UNI",
+      "side": "BUY",
+      "price_aud": 10.29,
+      "amount_aud": 15.0,
+      "fee_aud": 0.15,
+      "signal_strength": "weak",
+      "momentum_pct": 1.2795,
+      "reason": "Momentum 1.28% vs prior 4 average"
+    },
+    {
+      "time": "2026-11-04T04:48:16.708768+00:00",
+      "symbol": "APT",
+      "side": "BUY",
+      "price_aud": 0.880025,
+      "amount_aud": 15.0,
+      "fee_aud": 0.15,
+      "signal_strength": "weak",
+      "momentum_pct": 1.4674,
+      "reason": "Momentum 1.47% vs prior 4 average"
+    },
+    {
+      "time": "2026-11-04T04:48:16.708768+00:00",
+      "symbol": "XRP",
+      "side": "BUY",
+      "price_aud": 1.82,
+      "amount_aud": 15.0,
+      "fee_aud": 0.15,
+      "signal_strength": "weak",
+      "momentum_pct": 1.2517,
+      "reason": "Momentum 1.25% vs prior 4 average"
+    },
     {
       "time": "2026-11-04T03:13:12.953214+00:00",
       "symbol": "SAND",
@@ -249,6 +330,6 @@
       "winning_trades": 4
     }
   },
-  "recorded_fees_aud": 3.5792963,
+  "recorded_fees_aud": 4.6292963,
   "realized_pnl_aud": -4.48208859
 }
