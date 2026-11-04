@@ -1,14 +1,9 @@
 {
   "simulation_only": true,
-  "last_run": "2026-11-04T00:18:49.902123+00:00",
+  "last_run": "2026-11-04T01:30:13.803630+00:00",
   "starting_balance_aud": 300,
-  "cash_aud": 181.74843486113087,
+  "cash_aud": 196.0220008097896,
   "holdings": [
-    {
-      "symbol": "FET",
-      "quantity": 65.95310001776514,
-      "entry_aud": 0.22516
-    },
     {
       "symbol": "INJ",
       "quantity": 2.88394584139265,
@@ -31,6 +26,19 @@
     }
   ],
   "trades": [
+    {
+      "time": "2026-11-04T01:30:13.803630+00:00",
+      "symbol": "FET",
+      "side": "SELL",
+      "price_aud": 0.218606,
+      "amount_aud": 14.27356595,
+      "gross_aud": 14.41774338,
+      "fee_aud": 0.14417743,
+      "realized_pnl_aud": -0.72643405,
+      "cost_basis_aud": 15.0,
+      "signal_strength": "weak",
+      "reason": "Stop -2%"
+    },
     {
       "time": "2026-11-03T21:51:20.374299+00:00",
       "symbol": "BONK",
@@ -195,8 +203,8 @@
   "tracked_assets": 46,
   "performance_by_signal": {
     "weak": {
-      "closed_trades": 1,
-      "realized_pnl_aud": -0.62022645,
+      "closed_trades": 2,
+      "realized_pnl_aud": -1.3466605,
       "winning_trades": 0
     },
     "legacy": {
@@ -205,6 +213,6 @@
       "winning_trades": 4
     }
   },
-  "recorded_fees_aud": 2.42398786,
-  "realized_pnl_aud": 0.89995002
+  "recorded_fees_aud": 2.56816529,
+  "realized_pnl_aud": 0.17351597
 }
