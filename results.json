@@ -4,16 +4,30 @@
     "momentum": {
       "name": "momentum",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:40.542792+00:00",
+      "last_run": "2026-11-05T14:44:08.354246+00:00",
       "starting_balance_aud": 300,
-      "cash_aud": 188.24758885,
-      "invested_cost_aud": 105.0,
-      "open_positions": 5,
-      "closed_trades": 21,
+      "cash_aud": 216.82155553,
+      "invested_cost_aud": 75.0,
+      "open_positions": 4,
+      "closed_trades": 22,
       "wins": 12,
-      "realized_pnl_aud": -7.35847173,
+      "realized_pnl_aud": -8.78450505,
       "unrealized_pnl_aud": null,
       "recent_trades": [
+        {
+          "time": "2026-11-05T14:44:08.354246+00:00",
+          "symbol": "ADA",
+          "side": "SELL",
+          "price_aud": 0.275078,
+          "amount_aud": 28.57396668,
+          "gross_aud": 28.8625926,
+          "fee_aud": 0.28862593,
+          "sell_fee_rate": 0.01,
+          "realized_pnl_aud": -1.42603332,
+          "cost_basis_aud": 30.0,
+          "signal_strength": "very strong",
+          "reason": "Stop -2%"
+        },
         {
           "time": "2026-11-05T07:45:24.254430+00:00",
           "symbol": "ATOM",
@@ -195,25 +209,13 @@
           "cost_basis_aud": 45.0,
           "signal_strength": "strong",
           "reason": "Stop -2%"
-        },
-        {
-          "time": "2026-11-04T11:37:45.530060+00:00",
-          "symbol": "RENDER",
-          "side": "BUY",
-          "price_aud": 2.22,
-          "amount_aud": 30.0,
-          "fee_aud": 0.3,
-          "buy_fee_rate": 0.01,
-          "signal_strength": "moderate",
-          "momentum_pct": 1.8349,
-          "reason": "Momentum 1.83% vs prior 4 average"
         }
       ]
     },
     "pullback": {
       "name": "pullback",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:41.857400+00:00",
+      "last_run": "2026-11-05T14:44:10.048579+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 178.49362887,
       "invested_cost_aud": 120.0,
@@ -289,7 +291,7 @@
     "rsi_reversal": {
       "name": "rsi_reversal",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -303,7 +305,7 @@
     "ema_crossover": {
       "name": "ema_crossover",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -317,7 +319,7 @@
     "breakout": {
       "name": "breakout",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -331,7 +333,7 @@
     "trend_following": {
       "name": "trend_following",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -345,7 +347,7 @@
     "mean_reversion": {
       "name": "mean_reversion",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -359,7 +361,7 @@
     "macd": {
       "name": "macd",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -373,7 +375,7 @@
     "bollinger_bands": {
       "name": "bollinger_bands",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -387,7 +389,7 @@
     "multi_indicator": {
       "name": "multi_indicator",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -401,7 +403,7 @@
     "donchian_breakout": {
       "name": "donchian_breakout",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -415,7 +417,7 @@
     "donchian_reentry": {
       "name": "donchian_reentry",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -429,7 +431,7 @@
     "sma_golden_cross": {
       "name": "sma_golden_cross",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -443,7 +445,7 @@
     "sma_pullback": {
       "name": "sma_pullback",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -457,7 +459,7 @@
     "ema_ribbon": {
       "name": "ema_ribbon",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -471,7 +473,7 @@
     "rsi_momentum": {
       "name": "rsi_momentum",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -485,7 +487,7 @@
     "rsi_divergence_proxy": {
       "name": "rsi_divergence_proxy",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -499,7 +501,7 @@
     "bollinger_squeeze": {
       "name": "bollinger_squeeze",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -513,7 +515,7 @@
     "bollinger_reentry": {
       "name": "bollinger_reentry",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -527,7 +529,7 @@
     "volatility_breakout": {
       "name": "volatility_breakout",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -541,7 +543,7 @@
     "rate_of_change": {
       "name": "rate_of_change",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -555,7 +557,7 @@
     "momentum_acceleration": {
       "name": "momentum_acceleration",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -569,7 +571,7 @@
     "trend_retest": {
       "name": "trend_retest",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -583,7 +585,7 @@
     "higher_highs": {
       "name": "higher_highs",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -597,7 +599,7 @@
     "three_bar_reversal": {
       "name": "three_bar_reversal",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -611,7 +613,7 @@
     "zscore_reversal": {
       "name": "zscore_reversal",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -625,7 +627,7 @@
     "price_channel": {
       "name": "price_channel",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -639,7 +641,7 @@
     "dual_momentum": {
       "name": "dual_momentum",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -653,7 +655,7 @@
     "keltner_breakout": {
       "name": "keltner_breakout",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -667,7 +669,7 @@
     "macd_signal_cross": {
       "name": "macd_signal_cross",
       "simulation_only": true,
-      "last_run": "2026-11-05T13:52:43.338317+00:00",
+      "last_run": "2026-11-05T14:44:11.703624+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -679,28 +681,10 @@
       "recent_trades": []
     }
   },
-  "last_run": "2026-11-05T13:52:40.542792+00:00",
+  "last_run": "2026-11-05T14:44:08.354246+00:00",
   "starting_balance_aud": 300,
-  "cash_aud": 188.24758884928298,
+  "cash_aud": 216.82155552760798,
   "holdings": [
-    {
-      "symbol": "ADA",
-      "quantity": 104.9251216177546,
-      "cost_aud": 30.0,
-      "market_type": "no_direct_exchange_aud_pair",
-      "buy_fee_rate_assumed": null,
-      "sell_fee_rate_assumed": null,
-      "estimated_sell_aud": 28.82150288,
-      "estimated_net_pnl_aud": -1.17849712,
-      "estimate_status": "reference_estimate",
-      "source": null,
-      "entry_aud": 0.283059,
-      "reference_price_aud": 0.277461,
-      "reference_observed_at": "2026-11-05T13:52:40.542792+00:00",
-      "estimate_note": "Based on last CoinGecko reference price, less assumed fee; spread and liquidity not verified",
-      "app_fee_rate_assumed": 0.01,
-      "reference_price_source": "CoinGecko backup"
-    },
     {
       "symbol": "COMP",
       "quantity": 0.5210361613351877,
@@ -708,17 +692,17 @@
       "market_type": "exchange",
       "buy_fee_rate_assumed": 0.001,
       "sell_fee_rate_assumed": 0.001,
-      "estimated_sell_aud": 14.95439955,
-      "estimated_net_pnl_aud": -0.04560045,
+      "estimated_sell_aud": 14.83988622,
+      "estimated_net_pnl_aud": -0.16011378,
       "estimate_status": "estimated",
       "source": "CoinJar Exchange public order book",
-      "best_bid_aud": 28.73,
-      "best_ask_aud": 29.43,
-      "spread_pct": 2.37853,
-      "quote_observed_at": "2026-11-05T13:52:44.859540+00:00",
+      "best_bid_aud": 28.51,
+      "best_ask_aud": 29.19,
+      "spread_pct": 2.32956,
+      "quote_observed_at": "2026-11-05T14:44:13.513044+00:00",
       "entry_aud": 28.76,
       "reference_price_aud": 29.23,
-      "reference_observed_at": "2026-11-05T13:52:40.542792+00:00",
+      "reference_observed_at": "2026-11-05T14:44:08.354246+00:00",
       "reference_price_source": "CoinJar Exchange"
     },
     {
@@ -728,13 +712,13 @@
       "market_type": "no_direct_exchange_aud_pair",
       "buy_fee_rate_assumed": null,
       "sell_fee_rate_assumed": null,
-      "estimated_sell_aud": 30.7040177,
-      "estimated_net_pnl_aud": 0.7040177,
+      "estimated_sell_aud": 30.39177345,
+      "estimated_net_pnl_aud": 0.39177345,
       "estimate_status": "reference_estimate",
       "source": null,
       "entry_aud": 11.3,
-      "reference_price_aud": 11.8,
-      "reference_observed_at": "2026-11-05T13:52:40.542792+00:00",
+      "reference_price_aud": 11.68,
+      "reference_observed_at": "2026-11-05T14:44:08.354246+00:00",
       "estimate_note": "Based on last CoinGecko reference price, less assumed fee; spread and liquidity not verified",
       "app_fee_rate_assumed": 0.01,
       "reference_price_source": "CoinGecko backup"
@@ -746,13 +730,13 @@
       "market_type": "no_direct_exchange_aud_pair",
       "buy_fee_rate_assumed": null,
       "sell_fee_rate_assumed": null,
-      "estimated_sell_aud": 14.65806869,
-      "estimated_net_pnl_aud": -0.34193131,
+      "estimated_sell_aud": 14.50605908,
+      "estimated_net_pnl_aud": -0.49394092,
       "estimate_status": "reference_estimate",
       "source": null,
       "entry_aud": 6.77e-06,
-      "reference_price_aud": 6.75e-06,
-      "reference_observed_at": "2026-11-05T13:52:40.542792+00:00",
+      "reference_price_aud": 6.68e-06,
+      "reference_observed_at": "2026-11-05T14:44:08.354246+00:00",
       "estimate_note": "Based on last CoinGecko reference price, less assumed fee; spread and liquidity not verified",
       "app_fee_rate_assumed": 0.01,
       "reference_price_source": "CoinGecko backup"
@@ -764,13 +748,13 @@
       "market_type": "no_direct_exchange_aud_pair",
       "buy_fee_rate_assumed": null,
       "sell_fee_rate_assumed": null,
-      "estimated_sell_aud": 14.7695625,
-      "estimated_net_pnl_aud": -0.2304375,
+      "estimated_sell_aud": 14.565375,
+      "estimated_net_pnl_aud": -0.434625,
       "estimate_status": "reference_estimate",
       "source": null,
       "entry_aud": 2.16,
-      "reference_price_aud": 2.17,
-      "reference_observed_at": "2026-11-05T13:52:40.542792+00:00",
+      "reference_price_aud": 2.14,
+      "reference_observed_at": "2026-11-05T14:44:08.354246+00:00",
       "estimate_note": "Based on last CoinGecko reference price, less assumed fee; spread and liquidity not verified",
       "app_fee_rate_assumed": 0.01,
       "reference_price_source": "CoinGecko backup"
@@ -779,7 +763,7 @@
   "market_data_status": "published_market_list",
   "market_estimates_note": "Read-only snapshot; estimated, not executable quotes. App-only sale prices unavailable. Existing purchases retain original recorded costs.",
   "pullback": {
-    "last_run": "2026-11-05T13:52:41.857400+00:00",
+    "last_run": "2026-11-05T14:44:10.048579+00:00",
     "cash_aud": 178.4936288659794,
     "holdings": [
       {
@@ -789,13 +773,13 @@
         "market_type": "no_direct_exchange_aud_pair",
         "buy_fee_rate_assumed": null,
         "sell_fee_rate_assumed": null,
-        "estimated_sell_aud": 29.10019587,
-        "estimated_net_pnl_aud": -0.89980413,
+        "estimated_sell_aud": 28.62224605,
+        "estimated_net_pnl_aud": -1.37775395,
         "estimate_status": "reference_estimate",
         "source": null,
         "entry_aud": 0.907713,
-        "reference_price_aud": 0.898365,
-        "reference_observed_at": "2026-11-05T13:52:41.857400+00:00",
+        "reference_price_aud": 0.88361,
+        "reference_observed_at": "2026-11-05T14:44:10.048579+00:00",
         "estimate_note": "Based on last CoinGecko reference price, less assumed fee; spread and liquidity not verified",
         "app_fee_rate_assumed": 0.01
       },
@@ -806,13 +790,13 @@
         "market_type": "no_direct_exchange_aud_pair",
         "buy_fee_rate_assumed": null,
         "sell_fee_rate_assumed": null,
-        "estimated_sell_aud": 29.50009417,
-        "estimated_net_pnl_aud": -0.49990583,
+        "estimated_sell_aud": 29.23610564,
+        "estimated_net_pnl_aud": -0.76389436,
         "estimate_status": "reference_estimate",
         "source": null,
         "entry_aud": 0.00601117,
-        "reference_price_aud": 0.00603102,
-        "reference_observed_at": "2026-11-05T13:52:41.857400+00:00",
+        "reference_price_aud": 0.00597705,
+        "reference_observed_at": "2026-11-05T14:44:10.048579+00:00",
         "estimate_note": "Based on last CoinGecko reference price, less assumed fee; spread and liquidity not verified",
         "app_fee_rate_assumed": 0.01
       },
@@ -823,13 +807,13 @@
         "market_type": "no_direct_exchange_aud_pair",
         "buy_fee_rate_assumed": null,
         "sell_fee_rate_assumed": null,
-        "estimated_sell_aud": 29.26867646,
-        "estimated_net_pnl_aud": -0.73132354,
+        "estimated_sell_aud": 29.05967242,
+        "estimated_net_pnl_aud": -0.94032758,
         "estimate_status": "reference_estimate",
         "source": null,
         "entry_aud": 0.174023,
-        "reference_price_aud": 0.173228,
-        "reference_observed_at": "2026-11-05T13:52:41.857400+00:00",
+        "reference_price_aud": 0.171991,
+        "reference_observed_at": "2026-11-05T14:44:10.048579+00:00",
         "estimate_note": "Based on last CoinGecko reference price, less assumed fee; spread and liquidity not verified",
         "app_fee_rate_assumed": 0.01
       },
@@ -840,13 +824,13 @@
         "market_type": "no_direct_exchange_aud_pair",
         "buy_fee_rate_assumed": null,
         "sell_fee_rate_assumed": null,
-        "estimated_sell_aud": 29.16587903,
-        "estimated_net_pnl_aud": -0.83412097,
+        "estimated_sell_aud": 28.6916371,
+        "estimated_net_pnl_aud": -1.3083629,
         "estimate_status": "reference_estimate",
         "source": null,
         "entry_aud": 1.24,
-        "reference_price_aud": 1.23,
-        "reference_observed_at": "2026-11-05T13:52:41.857400+00:00",
+        "reference_price_aud": 1.21,
+        "reference_observed_at": "2026-11-05T14:44:10.048579+00:00",
         "estimate_note": "Based on last CoinGecko reference price, less assumed fee; spread and liquidity not verified",
         "app_fee_rate_assumed": 0.01
       }
@@ -917,6 +901,20 @@
     "market_data_status": "published_market_list"
   },
   "trades": [
+    {
+      "time": "2026-11-05T14:44:08.354246+00:00",
+      "symbol": "ADA",
+      "side": "SELL",
+      "price_aud": 0.275078,
+      "amount_aud": 28.57396668,
+      "gross_aud": 28.8625926,
+      "fee_aud": 0.28862593,
+      "sell_fee_rate": 0.01,
+      "realized_pnl_aud": -1.42603332,
+      "cost_basis_aud": 30.0,
+      "signal_strength": "very strong",
+      "reason": "Stop -2%"
+    },
     {
       "time": "2026-11-05T07:45:24.254430+00:00",
       "symbol": "ATOM",
@@ -1502,8 +1500,8 @@
       "winning_trades": 1
     },
     "very strong": {
-      "closed_trades": 1,
-      "realized_pnl_aud": -3.18782993,
+      "closed_trades": 2,
+      "realized_pnl_aud": -4.61386325,
       "winning_trades": 0
     },
     "legacy": {
@@ -1512,6 +1510,6 @@
       "winning_trades": 4
     }
   },
-  "recorded_fees_aud": 10.03833826,
-  "realized_pnl_aud": -7.35847173
+  "recorded_fees_aud": 10.32696419,
+  "realized_pnl_aud": -8.78450505
 }
