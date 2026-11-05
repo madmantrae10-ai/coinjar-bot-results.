@@ -4,7 +4,7 @@
     "momentum": {
       "name": "momentum",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:35.323496+00:00",
+      "last_run": "2026-11-05T16:41:47.660213+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 244.93297659,
       "invested_cost_aud": 45.0,
@@ -217,7 +217,7 @@
     "pullback": {
       "name": "pullback",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:35.954492+00:00",
+      "last_run": "2026-11-05T16:41:49.414295+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 289.58127513,
       "invested_cost_aud": 0,
@@ -337,21 +337,67 @@
     "rsi_reversal": {
       "name": "rsi_reversal",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
-      "cash_aud": 300.0,
-      "invested_cost_aud": 0,
-      "open_positions": 0,
+      "cash_aud": 150.0,
+      "invested_cost_aud": 150.0,
+      "open_positions": 5,
       "closed_trades": 0,
       "wins": 0,
       "realized_pnl_aud": 0,
       "unrealized_pnl_aud": null,
-      "recent_trades": []
+      "recent_trades": [
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "WLD",
+          "side": "BUY",
+          "price_aud": 0.496713,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "rsi_reversal"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "TAO",
+          "side": "BUY",
+          "price_aud": 316.0,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "rsi_reversal"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "FET",
+          "side": "BUY",
+          "price_aud": 0.21309,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "rsi_reversal"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "MKR",
+          "side": "BUY",
+          "price_aud": 2102.74,
+          "amount_aud": 30.0,
+          "fee_aud": 0.03,
+          "reason": "rsi_reversal"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "APT",
+          "side": "BUY",
+          "price_aud": 0.852178,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "rsi_reversal"
+        }
+      ]
     },
     "ema_crossover": {
       "name": "ema_crossover",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -365,7 +411,7 @@
     "breakout": {
       "name": "breakout",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -379,7 +425,7 @@
     "trend_following": {
       "name": "trend_following",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -393,21 +439,67 @@
     "mean_reversion": {
       "name": "mean_reversion",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
-      "cash_aud": 300.0,
-      "invested_cost_aud": 0,
-      "open_positions": 0,
+      "cash_aud": 150.0,
+      "invested_cost_aud": 150.0,
+      "open_positions": 5,
       "closed_trades": 0,
       "wins": 0,
       "realized_pnl_aud": 0,
       "unrealized_pnl_aud": null,
-      "recent_trades": []
+      "recent_trades": [
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "WLD",
+          "side": "BUY",
+          "price_aud": 0.496713,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "mean_reversion"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "TAO",
+          "side": "BUY",
+          "price_aud": 316.0,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "mean_reversion"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "FET",
+          "side": "BUY",
+          "price_aud": 0.21309,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "mean_reversion"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "MKR",
+          "side": "BUY",
+          "price_aud": 2102.74,
+          "amount_aud": 30.0,
+          "fee_aud": 0.03,
+          "reason": "mean_reversion"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "APT",
+          "side": "BUY",
+          "price_aud": 0.852178,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "mean_reversion"
+        }
+      ]
     },
     "macd": {
       "name": "macd",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -421,21 +513,67 @@
     "bollinger_bands": {
       "name": "bollinger_bands",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
-      "cash_aud": 300.0,
-      "invested_cost_aud": 0,
-      "open_positions": 0,
+      "cash_aud": 150.0,
+      "invested_cost_aud": 150.0,
+      "open_positions": 5,
       "closed_trades": 0,
       "wins": 0,
       "realized_pnl_aud": 0,
       "unrealized_pnl_aud": null,
-      "recent_trades": []
+      "recent_trades": [
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "WLD",
+          "side": "BUY",
+          "price_aud": 0.496713,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "bollinger_bands"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "TAO",
+          "side": "BUY",
+          "price_aud": 316.0,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "bollinger_bands"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "FET",
+          "side": "BUY",
+          "price_aud": 0.21309,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "bollinger_bands"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "MKR",
+          "side": "BUY",
+          "price_aud": 2102.74,
+          "amount_aud": 30.0,
+          "fee_aud": 0.03,
+          "reason": "bollinger_bands"
+        },
+        {
+          "time": "2026-11-05T16:41:51.240932+00:00",
+          "symbol": "APT",
+          "side": "BUY",
+          "price_aud": 0.852178,
+          "amount_aud": 30.0,
+          "fee_aud": 0.3,
+          "reason": "bollinger_bands"
+        }
+      ]
     },
     "multi_indicator": {
       "name": "multi_indicator",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -449,7 +587,7 @@
     "donchian_breakout": {
       "name": "donchian_breakout",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -463,7 +601,7 @@
     "donchian_reentry": {
       "name": "donchian_reentry",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -477,7 +615,7 @@
     "sma_golden_cross": {
       "name": "sma_golden_cross",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -491,7 +629,7 @@
     "sma_pullback": {
       "name": "sma_pullback",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -505,7 +643,7 @@
     "ema_ribbon": {
       "name": "ema_ribbon",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -519,7 +657,7 @@
     "rsi_momentum": {
       "name": "rsi_momentum",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -533,7 +671,7 @@
     "rsi_divergence_proxy": {
       "name": "rsi_divergence_proxy",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -547,7 +685,7 @@
     "bollinger_squeeze": {
       "name": "bollinger_squeeze",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -561,7 +699,7 @@
     "bollinger_reentry": {
       "name": "bollinger_reentry",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -575,7 +713,7 @@
     "volatility_breakout": {
       "name": "volatility_breakout",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -589,7 +727,7 @@
     "rate_of_change": {
       "name": "rate_of_change",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -603,7 +741,7 @@
     "momentum_acceleration": {
       "name": "momentum_acceleration",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -617,7 +755,7 @@
     "trend_retest": {
       "name": "trend_retest",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -631,7 +769,7 @@
     "higher_highs": {
       "name": "higher_highs",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -645,7 +783,7 @@
     "three_bar_reversal": {
       "name": "three_bar_reversal",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -659,7 +797,7 @@
     "zscore_reversal": {
       "name": "zscore_reversal",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -673,7 +811,7 @@
     "price_channel": {
       "name": "price_channel",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -687,7 +825,7 @@
     "dual_momentum": {
       "name": "dual_momentum",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -701,7 +839,7 @@
     "keltner_breakout": {
       "name": "keltner_breakout",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -715,7 +853,7 @@
     "macd_signal_cross": {
       "name": "macd_signal_cross",
       "simulation_only": true,
-      "last_run": "2026-11-05T15:37:36.556236+00:00",
+      "last_run": "2026-11-05T16:41:51.240932+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -727,7 +865,7 @@
       "recent_trades": []
     }
   },
-  "last_run": "2026-11-05T15:37:35.323496+00:00",
+  "last_run": "2026-11-05T16:41:47.660213+00:00",
   "starting_balance_aud": 300,
   "cash_aud": 244.93297659481624,
   "holdings": [
@@ -738,17 +876,17 @@
       "market_type": "exchange",
       "buy_fee_rate_assumed": 0.001,
       "sell_fee_rate_assumed": 0.001,
-      "estimated_sell_aud": 14.47552563,
-      "estimated_net_pnl_aud": -0.52447437,
+      "estimated_sell_aud": 14.45991018,
+      "estimated_net_pnl_aud": -0.54008982,
       "estimate_status": "estimated",
       "source": "CoinJar Exchange public order book",
-      "best_bid_aud": 27.81,
-      "best_ask_aud": 28.09,
-      "spread_pct": 0.9968,
-      "quote_observed_at": "2026-11-05T15:37:37.999210+00:00",
+      "best_bid_aud": 27.78,
+      "best_ask_aud": 28.45,
+      "spread_pct": 2.35501,
+      "quote_observed_at": "2026-11-05T16:41:52.860248+00:00",
       "entry_aud": 28.76,
       "reference_price_aud": 28.47,
-      "reference_observed_at": "2026-11-05T15:37:35.323496+00:00",
+      "reference_observed_at": "2026-11-05T16:41:47.660213+00:00",
       "reference_price_source": "CoinJar Exchange"
     },
     {
@@ -758,13 +896,13 @@
       "market_type": "no_direct_exchange_aud_pair",
       "buy_fee_rate_assumed": null,
       "sell_fee_rate_assumed": null,
-      "estimated_sell_aud": 29.87136637,
-      "estimated_net_pnl_aud": -0.12863363,
+      "estimated_sell_aud": 30.0795292,
+      "estimated_net_pnl_aud": 0.0795292,
       "estimate_status": "reference_estimate",
       "source": null,
       "entry_aud": 11.3,
-      "reference_price_aud": 11.48,
-      "reference_observed_at": "2026-11-05T15:37:35.323496+00:00",
+      "reference_price_aud": 11.56,
+      "reference_observed_at": "2026-11-05T16:41:47.660213+00:00",
       "estimate_note": "Based on last CoinGecko reference price, less assumed fee; spread and liquidity not verified",
       "app_fee_rate_assumed": 0.01,
       "reference_price_source": "CoinGecko backup"
@@ -773,7 +911,7 @@
   "market_data_status": "published_market_list",
   "market_estimates_note": "Read-only snapshot; estimated, not executable quotes. App-only sale prices unavailable. Existing purchases retain original recorded costs.",
   "pullback": {
-    "last_run": "2026-11-05T15:37:35.954492+00:00",
+    "last_run": "2026-11-05T16:41:49.414295+00:00",
     "cash_aud": 289.5812751304471,
     "holdings": [],
     "trades": [
