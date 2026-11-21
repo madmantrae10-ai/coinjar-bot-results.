@@ -141,7 +141,7 @@
     },
     {
       "portfolio": "adaptive_sma_golden_cross",
-      "estimated_equity_aud": 287.63253081,
+      "estimated_equity_aud": 287.57637865,
       "closed_trades": 10,
       "profit_factor": 0.0
     },
@@ -167,6 +167,12 @@
       "portfolio": "bollinger_squeeze",
       "estimated_equity_aud": 285.52230879,
       "closed_trades": 10,
+      "profit_factor": 0.0
+    },
+    {
+      "portfolio": "adaptive_bollinger_reentry",
+      "estimated_equity_aud": 285.2287015,
+      "closed_trades": 9,
       "profit_factor": 0.0
     },
     {
@@ -200,14 +206,8 @@
       "profit_factor": 0.0743
     },
     {
-      "portfolio": "adaptive_bollinger_reentry",
-      "estimated_equity_aud": 283.12634408,
-      "closed_trades": 9,
-      "profit_factor": 0.0
-    },
-    {
       "portfolio": "sma_golden_cross",
-      "estimated_equity_aud": 283.10251354,
+      "estimated_equity_aud": 283.04636138,
       "closed_trades": 12,
       "profit_factor": 0.0
     },
@@ -216,6 +216,12 @@
       "estimated_equity_aud": 281.76010381,
       "closed_trades": 18,
       "profit_factor": 0.1633
+    },
+    {
+      "portfolio": "bollinger_reentry",
+      "estimated_equity_aud": 281.47626888,
+      "closed_trades": 10,
+      "profit_factor": 0.0
     },
     {
       "portfolio": "volatility_breakout",
@@ -240,12 +246,6 @@
       "estimated_equity_aud": 279.3805421,
       "closed_trades": 22,
       "profit_factor": 0.1481
-    },
-    {
-      "portfolio": "bollinger_reentry",
-      "estimated_equity_aud": 279.37391146,
-      "closed_trades": 10,
-      "profit_factor": 0.0
     },
     {
       "portfolio": "donchian_breakout",
@@ -320,6 +320,12 @@
       "profit_factor": 0.0
     },
     {
+      "portfolio": "master",
+      "estimated_equity_aud": 272.2028795,
+      "closed_trades": 20,
+      "profit_factor": 0.0429
+    },
+    {
       "portfolio": "momentum_acceleration",
       "estimated_equity_aud": 271.8912894,
       "closed_trades": 25,
@@ -332,10 +338,10 @@
       "profit_factor": 0.0445
     },
     {
-      "portfolio": "master",
-      "estimated_equity_aud": 270.10052207,
-      "closed_trades": 20,
-      "profit_factor": 0.0429
+      "portfolio": "adaptive_rsi_divergence_proxy",
+      "estimated_equity_aud": 270.15839351,
+      "closed_trades": 21,
+      "profit_factor": 0.0
     },
     {
       "portfolio": "sma_pullback",
@@ -344,26 +350,20 @@
       "profit_factor": 0.0
     },
     {
-      "portfolio": "adaptive_rsi_divergence_proxy",
-      "estimated_equity_aud": 268.05603609,
-      "closed_trades": 21,
-      "profit_factor": 0.0
-    },
-    {
       "portfolio": "rsi_divergence_proxy",
-      "estimated_equity_aud": 266.55247528,
+      "estimated_equity_aud": 268.65483271,
       "closed_trades": 20,
       "profit_factor": 0.0
     },
     {
       "portfolio": "momentum",
-      "estimated_equity_aud": 240.32453354,
+      "estimated_equity_aud": 242.35907603,
       "closed_trades": 55,
       "profit_factor": 0.1472
     },
     {
       "portfolio": "adaptive_momentum",
-      "estimated_equity_aud": 237.4846737,
+      "estimated_equity_aud": 239.51921619,
       "closed_trades": 44,
       "profit_factor": 0.0298
     }
@@ -372,7 +372,7 @@
     "momentum": {
       "name": "momentum",
       "simulation_only": true,
-      "estimated_equity_aud": 240.32453354,
+      "estimated_equity_aud": 242.35907603,
       "holdings": [
         {
           "symbol": "LINK",
@@ -398,8 +398,8 @@
           "quantity": 1125.1818055583612,
           "entry_price_aud": 0.02494,
           "cost_aud": 28.09012435498051,
-          "reference_price_aud": 0.02279,
-          "indicative_sell_after_fee_aud": 25.61725046,
+          "reference_price_aud": 0.0246,
+          "indicative_sell_after_fee_aud": 27.65179294,
           "exit_plan": {
             "target_pct": 0.2,
             "stop_pct": 0.1,
@@ -601,7 +601,7 @@
       ],
       "profit_factor": 0.1472,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.604240+00:00",
+      "last_run": "2026-11-21T19:31:22.972226+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 154.82722308,
       "invested_cost_aud": 88.09012435,
@@ -609,7 +609,7 @@
       "closed_trades": 55,
       "wins": 15,
       "realized_pnl_aud": -57.6887131,
-      "unrealized_pnl_aud": -1.98675336,
+      "unrealized_pnl_aud": 0.04778913,
       "recent_trades": [
         {
           "time": "2026-11-21T11:51:02.087729+00:00",
@@ -1144,7 +1144,7 @@
       ],
       "profit_factor": 0.0445,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.656365+00:00",
+      "last_run": "2026-11-21T19:31:23.046928+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 210.54844078,
       "invested_cost_aud": 60.0,
@@ -1439,6 +1439,13 @@
           "reason": "Insufficient history or poor net reward/risk"
         },
         {
+          "symbol": "MKR",
+          "estimated_fee_each_side": 0.001,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
           "symbol": "COMP",
           "estimated_fee_each_side": 0.001,
           "plan": {
@@ -1574,18 +1581,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "PUMP",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.1075,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 256.23795079,
       "invested_cost_aud": 30.0,
@@ -1926,7 +1926,7 @@
       ],
       "profit_factor": 0.1484,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 279.42268206,
       "invested_cost_aud": 0,
@@ -2307,7 +2307,7 @@
       ],
       "profit_factor": 0.0716,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 277.94881919,
       "invested_cost_aud": 0,
@@ -2550,6 +2550,62 @@
           "reason": "Insufficient history or poor net reward/risk"
         },
         {
+          "symbol": "WLD",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "RENDER",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "XLM",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "AVAX",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "SOL",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "BTC",
+          "estimated_fee_each_side": 0.001,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "HBAR",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "ARB",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
           "symbol": "AXS",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -2618,67 +2674,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "XRP",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "SOL",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "BTC",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ALGO",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "HBAR",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ARB",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "AXS",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "PUMP",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.1481,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 279.3805421,
       "invested_cost_aud": 0,
@@ -3103,7 +3103,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 291.24643615,
       "invested_cost_aud": 0,
@@ -3397,7 +3397,7 @@
       ],
       "profit_factor": 0.1633,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 281.76010381,
       "invested_cost_aud": 0,
@@ -3800,7 +3800,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 273.53743493,
       "invested_cost_aud": 0,
@@ -4181,7 +4181,7 @@
       ],
       "profit_factor": 0.1442,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 278.72913078,
       "invested_cost_aud": 0,
@@ -4552,7 +4552,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 278.82486788,
       "invested_cost_aud": 0,
@@ -4810,6 +4810,31 @@
       ],
       "decision_log": [
         {
+          "symbol": "RENDER",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "GRT",
+          "estimated_fee_each_side": 0.001,
+          "plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
+            "fee_buy": 0.001,
+            "fee_sell": 0.001,
+            "estimated_extra_cost_pct": 0.005,
+            "method": "median absolute observed price move; not a forecast"
+          },
+          "approved": false,
+          "market_regime": "range",
+          "reason": "Correlated exposure limit"
+        },
+        {
           "symbol": "HBAR",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -4967,25 +4992,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ADA",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "XRP",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.1658,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 215.52380967,
       "invested_cost_aud": 60.0,
@@ -5230,7 +5241,7 @@
     "sma_golden_cross": {
       "name": "sma_golden_cross",
       "simulation_only": true,
-      "estimated_equity_aud": 283.10251354,
+      "estimated_equity_aud": 283.04636138,
       "holdings": [
         {
           "symbol": "LINK",
@@ -5250,9 +5261,49 @@
             "estimated_extra_cost_pct": 0.005,
             "method": "median absolute observed price move; not a forecast"
           }
+        },
+        {
+          "symbol": "GRT",
+          "quantity": 1140.7330988059157,
+          "entry_price_aud": 0.0246,
+          "cost_aud": 28.09012435498051,
+          "reference_price_aud": 0.0246,
+          "indicative_sell_after_fee_aud": 28.0339722,
+          "exit_plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
+            "fee_buy": 0.001,
+            "fee_sell": 0.001,
+            "estimated_extra_cost_pct": 0.005,
+            "method": "median absolute observed price move; not a forecast"
+          }
         }
       ],
       "decision_log": [
+        {
+          "symbol": "GRT",
+          "estimated_fee_each_side": 0.001,
+          "plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
+            "fee_buy": 0.001,
+            "fee_sell": 0.001,
+            "estimated_extra_cost_pct": 0.005,
+            "method": "median absolute observed price move; not a forecast"
+          },
+          "approved": true,
+          "market_regime": "range",
+          "reason": "Pass: estimated net reward/risk and portfolio risk",
+          "amount_aud": 28.0901,
+          "estimated_loss_at_stop_aud": 3.0,
+          "price_source": "Reference only; executable spread/liquidity not verified"
+        },
         {
           "symbol": "HBAR",
           "estimated_fee_each_side": 0.01,
@@ -5385,41 +5436,40 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
+        }
+      ],
+      "profit_factor": 0.0,
+      "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
+      "starting_balance_aud": 300,
+      "cash_aud": 225.07235919,
+      "invested_cost_aud": 58.09012435,
+      "open_positions": 2,
+      "closed_trades": 12,
+      "wins": 0,
+      "realized_pnl_aud": -16.83751646,
+      "unrealized_pnl_aud": -0.11612216,
+      "recent_trades": [
         {
-          "symbol": "LINK",
-          "estimated_fee_each_side": 0.001,
-          "plan": {
-            "target_pct": 0.05278592375366564,
-            "stop_pct": 0.02639296187683282,
-            "net_target_pct": 0.045681404692082046,
-            "net_stop_pct": -0.033339202346041034,
-            "reward_risk": 1.3702008889695774,
+          "time": "2026-11-21T19:31:23.122863+00:00",
+          "symbol": "GRT",
+          "side": "BUY",
+          "price_aud": 0.0246,
+          "amount_aud": 28.09012435,
+          "fee_aud": 0.02809012,
+          "exit_plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
             "fee_buy": 0.001,
             "fee_sell": 0.001,
             "estimated_extra_cost_pct": 0.005,
             "method": "median absolute observed price move; not a forecast"
           },
-          "approved": true,
-          "market_regime": "range",
-          "reason": "Pass: estimated net reward/risk and portfolio risk",
-          "amount_aud": 30.0,
-          "estimated_loss_at_stop_aud": 1.0002,
-          "price_source": "Reference only; executable spread/liquidity not verified"
-        }
-      ],
-      "profit_factor": 0.0,
-      "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
-      "starting_balance_aud": 300,
-      "cash_aud": 253.16248354,
-      "invested_cost_aud": 30.0,
-      "open_positions": 1,
-      "closed_trades": 12,
-      "wins": 0,
-      "realized_pnl_aud": -16.83751646,
-      "unrealized_pnl_aud": -0.05997,
-      "recent_trades": [
+          "reason": "sma_golden_cross"
+        },
         {
           "time": "2026-11-21T15:13:50.082839+00:00",
           "symbol": "LINK",
@@ -5619,16 +5669,6 @@
           "fee_aud": 0.29034523,
           "realized_pnl_aud": -1.25582241,
           "reason": "Stop -2%"
-        },
-        {
-          "time": "2026-11-07T16:01:51.763663+00:00",
-          "symbol": "XLM",
-          "side": "SELL",
-          "price_aud": 0.220157,
-          "amount_aud": 28.78994984,
-          "fee_aud": 0.29080757,
-          "realized_pnl_aud": -1.21005016,
-          "reason": "Stop -2%"
         }
       ]
     },
@@ -5781,7 +5821,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 268.83585922,
       "invested_cost_aud": 0,
@@ -6020,6 +6060,104 @@
       "holdings": [],
       "decision_log": [
         {
+          "symbol": "ALGO",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "FIL",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "OP",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "AXS",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "FLOKI",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "WIF",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "FET",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "RENDER",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "APT",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "NEAR",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "TRX",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "BCH",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "ADA",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "SOL",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
           "symbol": "FIL",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -6060,109 +6198,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "PEPE",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "SHIB",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "TAO",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "FET",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "TRX",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ETH",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "BTC",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ALGO",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "POL",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "OP",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "OGN",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "MANA",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "GALA",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "SAND",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.0539,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 277.7836961,
       "invested_cost_aud": 0,
@@ -6563,7 +6603,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 244.975884,
       "invested_cost_aud": 30.0,
@@ -6808,15 +6848,15 @@
     "rsi_divergence_proxy": {
       "name": "rsi_divergence_proxy",
       "simulation_only": true,
-      "estimated_equity_aud": 266.55247528,
+      "estimated_equity_aud": 268.65483271,
       "holdings": [
         {
           "symbol": "GRT",
           "quantity": 1162.6861252886006,
           "entry_price_aud": 0.02413552,
           "cost_aud": 28.09012435498051,
-          "reference_price_aud": 0.02279,
-          "indicative_sell_after_fee_aud": 26.47111918,
+          "reference_price_aud": 0.0246,
+          "indicative_sell_after_fee_aud": 28.5734766,
           "exit_plan": {
             "target_pct": 0.2,
             "stop_pct": 0.1,
@@ -6974,7 +7014,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 240.0813561,
       "invested_cost_aud": 28.09012435,
@@ -6982,7 +7022,7 @@
       "closed_trades": 20,
       "wins": 0,
       "realized_pnl_aud": -31.82851954,
-      "unrealized_pnl_aud": -1.61900518,
+      "unrealized_pnl_aud": 0.48335225,
       "recent_trades": [
         {
           "time": "2026-11-21T16:07:22.584265+00:00",
@@ -7355,7 +7395,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 285.52230879,
       "invested_cost_aud": 0,
@@ -7515,15 +7555,15 @@
     "bollinger_reentry": {
       "name": "bollinger_reentry",
       "simulation_only": true,
-      "estimated_equity_aud": 279.37391146,
+      "estimated_equity_aud": 281.47626888,
       "holdings": [
         {
           "symbol": "GRT",
           "quantity": 1162.6861252886006,
           "entry_price_aud": 0.02413552,
           "cost_aud": 28.09012435498051,
-          "reference_price_aud": 0.02279,
-          "indicative_sell_after_fee_aud": 26.47111918,
+          "reference_price_aud": 0.0246,
+          "indicative_sell_after_fee_aud": 28.5734766,
           "exit_plan": {
             "target_pct": 0.2,
             "stop_pct": 0.1,
@@ -7728,7 +7768,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 252.90279228,
       "invested_cost_aud": 28.09012435,
@@ -7736,7 +7776,7 @@
       "closed_trades": 10,
       "wins": 0,
       "realized_pnl_aud": -19.00708336,
-      "unrealized_pnl_aud": -1.61900518,
+      "unrealized_pnl_aud": 0.48335224,
       "recent_trades": [
         {
           "time": "2026-11-21T16:07:22.584265+00:00",
@@ -8119,7 +8159,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 281.06928664,
       "invested_cost_aud": 0,
@@ -8490,7 +8530,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 290.37003,
       "invested_cost_aud": 0,
@@ -8746,6 +8786,24 @@
       ],
       "decision_log": [
         {
+          "symbol": "GRT",
+          "estimated_fee_each_side": 0.001,
+          "plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
+            "fee_buy": 0.001,
+            "fee_sell": 0.001,
+            "estimated_extra_cost_pct": 0.005,
+            "method": "median absolute observed price move; not a forecast"
+          },
+          "approved": false,
+          "market_regime": "range",
+          "reason": "Correlated exposure limit"
+        },
+        {
           "symbol": "ARB",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -8943,18 +9001,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ARB",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.1496,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 212.45189194,
       "invested_cost_aud": 60.0,
@@ -9345,7 +9396,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 277.34825438,
       "invested_cost_aud": 0,
@@ -9746,7 +9797,7 @@
       ],
       "profit_factor": 0.2765,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 257.32419354,
       "invested_cost_aud": 30.0,
@@ -10117,7 +10168,7 @@
       ],
       "profit_factor": 0.0982,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 288.54589737,
       "invested_cost_aud": 0,
@@ -10391,6 +10442,13 @@
           "reason": "Insufficient history or poor net reward/risk"
         },
         {
+          "symbol": "MKR",
+          "estimated_fee_each_side": 0.001,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
           "symbol": "ATOM",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -10520,29 +10578,11 @@
           "approved": false,
           "market_regime": "downtrend",
           "reason": "Market regime filter"
-        },
-        {
-          "symbol": "AAVE",
-          "estimated_fee_each_side": 0.001,
-          "plan": {
-            "target_pct": 0.09663922256714841,
-            "stop_pct": 0.048319611283574204,
-            "net_target_pct": 0.08944704076123677,
-            "net_stop_pct": -0.05522202038061829,
-            "reward_risk": 1.619771246048627,
-            "fee_buy": 0.001,
-            "fee_sell": 0.001,
-            "estimated_extra_cost_pct": 0.005,
-            "method": "median absolute observed price move; not a forecast"
-          },
-          "approved": false,
-          "market_regime": "downtrend",
-          "reason": "Market regime filter"
         }
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 296.94215264,
       "invested_cost_aud": 0,
@@ -10782,7 +10822,7 @@
       ],
       "profit_factor": 0.0532,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 279.9913866,
       "invested_cost_aud": 0,
@@ -11163,7 +11203,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 290.21648903,
       "invested_cost_aud": 0,
@@ -11522,7 +11562,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 275.44189159,
       "invested_cost_aud": 0,
@@ -11903,7 +11943,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.706499+00:00",
+      "last_run": "2026-11-21T19:31:23.122863+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 292.38943287,
       "invested_cost_aud": 0,
@@ -12099,7 +12139,7 @@
   "master": {
     "name": "master",
     "simulation_only": true,
-    "estimated_equity_aud": 270.10052207,
+    "estimated_equity_aud": 272.2028795,
     "holdings": [
       {
         "symbol": "LINK",
@@ -12125,8 +12165,8 @@
         "quantity": 1162.6861252886006,
         "entry_price_aud": 0.02413552,
         "cost_aud": 28.09012435498051,
-        "reference_price_aud": 0.02279,
-        "indicative_sell_after_fee_aud": 26.47111918,
+        "reference_price_aud": 0.0246,
+        "indicative_sell_after_fee_aud": 28.5734766,
         "exit_plan": {
           "target_pct": 0.2,
           "stop_pct": 0.1,
@@ -12284,7 +12324,7 @@
     ],
     "profit_factor": 0.0429,
     "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-    "last_run": "2026-11-21T19:04:46.159354+00:00",
+    "last_run": "2026-11-21T19:31:23.886638+00:00",
     "starting_balance_aud": 300,
     "cash_aud": 214.10233882,
     "invested_cost_aud": 58.09012435,
@@ -12292,7 +12332,7 @@
     "closed_trades": 20,
     "wins": 1,
     "realized_pnl_aud": -27.80753682,
-    "unrealized_pnl_aud": -2.09194111,
+    "unrealized_pnl_aud": 0.01041632,
     "recent_trades": [
       {
         "time": "2026-11-21T16:07:23.068149+00:00",
@@ -12546,15 +12586,15 @@
     "momentum": {
       "name": "momentum",
       "simulation_only": true,
-      "estimated_equity_aud": 237.4846737,
+      "estimated_equity_aud": 239.51921619,
       "holdings": [
         {
           "symbol": "GRT",
           "quantity": 1125.1818055583612,
           "entry_price_aud": 0.02494,
           "cost_aud": 28.09012435498051,
-          "reference_price_aud": 0.02279,
-          "indicative_sell_after_fee_aud": 25.61725046,
+          "reference_price_aud": 0.0246,
+          "indicative_sell_after_fee_aud": 27.65179294,
           "exit_plan": {
             "target_pct": 0.2,
             "stop_pct": 0.1,
@@ -12756,7 +12796,7 @@
       ],
       "profit_factor": 0.0298,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.877084+00:00",
+      "last_run": "2026-11-21T19:31:23.443012+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 211.86742324,
       "invested_cost_aud": 28.09012435,
@@ -12764,7 +12804,7 @@
       "closed_trades": 44,
       "wins": 3,
       "realized_pnl_aud": -60.04245238,
-      "unrealized_pnl_aud": -2.47287392,
+      "unrealized_pnl_aud": -0.43833143,
       "recent_trades": [
         {
           "time": "2026-11-21T05:33:40.967619+00:00",
@@ -13290,7 +13330,7 @@
       ],
       "profit_factor": 0.235,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.924273+00:00",
+      "last_run": "2026-11-21T19:31:23.517456+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 235.53660195,
       "invested_cost_aud": 60.0,
@@ -13595,6 +13635,13 @@
           "reason": "Insufficient history or poor net reward/risk"
         },
         {
+          "symbol": "MKR",
+          "estimated_fee_each_side": 0.001,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
           "symbol": "COMP",
           "estimated_fee_each_side": 0.001,
           "plan": {
@@ -13730,18 +13777,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "PUMP",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 268.43259239,
       "invested_cost_aud": 30.0,
@@ -13952,7 +13992,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 287.07556185,
       "invested_cost_aud": 0,
@@ -14333,7 +14373,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 290.07843445,
       "invested_cost_aud": 0,
@@ -14546,6 +14586,62 @@
           "reason": "Insufficient history or poor net reward/risk"
         },
         {
+          "symbol": "WLD",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "RENDER",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "XLM",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "AVAX",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "SOL",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "BTC",
+          "estimated_fee_each_side": 0.001,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "HBAR",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "ARB",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
           "symbol": "AXS",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -14614,67 +14710,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "XRP",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "SOL",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "BTC",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ALGO",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "HBAR",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ARB",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "AXS",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "PUMP",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 284.80171799,
       "invested_cost_aud": 0,
@@ -15099,7 +15139,7 @@
       ],
       "profit_factor": null,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -15259,7 +15299,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 289.0835243,
       "invested_cost_aud": 0,
@@ -15662,7 +15702,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 284.74534925,
       "invested_cost_aud": 0,
@@ -16043,7 +16083,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 284.66922714,
       "invested_cost_aud": 0,
@@ -16424,7 +16464,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 291.24414419,
       "invested_cost_aud": 0,
@@ -16632,6 +16672,31 @@
       ],
       "decision_log": [
         {
+          "symbol": "RENDER",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "GRT",
+          "estimated_fee_each_side": 0.001,
+          "plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
+            "fee_buy": 0.001,
+            "fee_sell": 0.001,
+            "estimated_extra_cost_pct": 0.005,
+            "method": "median absolute observed price move; not a forecast"
+          },
+          "approved": false,
+          "market_regime": "range",
+          "reason": "Correlated exposure limit"
+        },
+        {
           "symbol": "HBAR",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -16789,25 +16854,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ADA",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "XRP",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.0743,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 222.91588581,
       "invested_cost_aud": 60.0,
@@ -17052,7 +17103,7 @@
     "sma_golden_cross": {
       "name": "sma_golden_cross",
       "simulation_only": true,
-      "estimated_equity_aud": 287.63253081,
+      "estimated_equity_aud": 287.57637865,
       "holdings": [
         {
           "symbol": "LINK",
@@ -17072,9 +17123,49 @@
             "estimated_extra_cost_pct": 0.005,
             "method": "median absolute observed price move; not a forecast"
           }
+        },
+        {
+          "symbol": "GRT",
+          "quantity": 1140.7330988059157,
+          "entry_price_aud": 0.0246,
+          "cost_aud": 28.09012435498051,
+          "reference_price_aud": 0.0246,
+          "indicative_sell_after_fee_aud": 28.0339722,
+          "exit_plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
+            "fee_buy": 0.001,
+            "fee_sell": 0.001,
+            "estimated_extra_cost_pct": 0.005,
+            "method": "median absolute observed price move; not a forecast"
+          }
         }
       ],
       "decision_log": [
+        {
+          "symbol": "GRT",
+          "estimated_fee_each_side": 0.001,
+          "plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
+            "fee_buy": 0.001,
+            "fee_sell": 0.001,
+            "estimated_extra_cost_pct": 0.005,
+            "method": "median absolute observed price move; not a forecast"
+          },
+          "approved": true,
+          "market_regime": "range",
+          "reason": "Pass: estimated net reward/risk and portfolio risk",
+          "amount_aud": 28.0901,
+          "estimated_loss_at_stop_aud": 3.0,
+          "price_source": "Reference only; executable spread/liquidity not verified"
+        },
         {
           "symbol": "HBAR",
           "estimated_fee_each_side": 0.01,
@@ -17207,41 +17298,40 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
+        }
+      ],
+      "profit_factor": 0.0,
+      "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
+      "starting_balance_aud": 300,
+      "cash_aud": 229.60237645,
+      "invested_cost_aud": 58.09012435,
+      "open_positions": 2,
+      "closed_trades": 10,
+      "wins": 0,
+      "realized_pnl_aud": -12.3074992,
+      "unrealized_pnl_aud": -0.11612215,
+      "recent_trades": [
         {
-          "symbol": "LINK",
-          "estimated_fee_each_side": 0.001,
-          "plan": {
-            "target_pct": 0.05278592375366564,
-            "stop_pct": 0.02639296187683282,
-            "net_target_pct": 0.045681404692082046,
-            "net_stop_pct": -0.033339202346041034,
-            "reward_risk": 1.3702008889695774,
+          "time": "2026-11-21T19:31:23.592670+00:00",
+          "symbol": "GRT",
+          "side": "BUY",
+          "price_aud": 0.0246,
+          "amount_aud": 28.09012435,
+          "fee_aud": 0.02809012,
+          "exit_plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
             "fee_buy": 0.001,
             "fee_sell": 0.001,
             "estimated_extra_cost_pct": 0.005,
             "method": "median absolute observed price move; not a forecast"
           },
-          "approved": true,
-          "market_regime": "range",
-          "reason": "Pass: estimated net reward/risk and portfolio risk",
-          "amount_aud": 30.0,
-          "estimated_loss_at_stop_aud": 1.0002,
-          "price_source": "Reference only; executable spread/liquidity not verified"
-        }
-      ],
-      "profit_factor": 0.0,
-      "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
-      "starting_balance_aud": 300,
-      "cash_aud": 257.69250081,
-      "invested_cost_aud": 30.0,
-      "open_positions": 1,
-      "closed_trades": 10,
-      "wins": 0,
-      "realized_pnl_aud": -12.3074992,
-      "unrealized_pnl_aud": -0.05996999,
-      "recent_trades": [
+          "reason": "sma_golden_cross"
+        },
         {
           "time": "2026-11-21T15:13:50.402332+00:00",
           "symbol": "LINK",
@@ -17451,26 +17541,6 @@
           "fee_aud": 0.02988172,
           "realized_pnl_aud": -0.1481586,
           "reason": "Adaptive trailing stop (planned volatility)"
-        },
-        {
-          "time": "2026-11-15T03:18:04.966756+00:00",
-          "symbol": "LINK",
-          "side": "BUY",
-          "price_aud": 13.58,
-          "amount_aud": 30.0,
-          "fee_aud": 0.03,
-          "exit_plan": {
-            "target_pct": 0.06123869171885854,
-            "stop_pct": 0.03061934585942927,
-            "net_target_pct": 0.05411727557411251,
-            "net_stop_pct": -0.037557137787056265,
-            "reward_risk": 1.4409318378027078,
-            "fee_buy": 0.001,
-            "fee_sell": 0.001,
-            "estimated_extra_cost_pct": 0.005,
-            "method": "median absolute observed price move; not a forecast"
-          },
-          "reason": "sma_golden_cross"
         }
       ]
     },
@@ -17623,7 +17693,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 277.41805229,
       "invested_cost_aud": 0,
@@ -17862,6 +17932,104 @@
       "holdings": [],
       "decision_log": [
         {
+          "symbol": "ALGO",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "FIL",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "OP",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "AXS",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "FLOKI",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "WIF",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "FET",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "RENDER",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "APT",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "NEAR",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "TRX",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "BCH",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "ADA",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
+          "symbol": "SOL",
+          "estimated_fee_each_side": 0.01,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
           "symbol": "FIL",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -17902,109 +18070,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "PEPE",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "SHIB",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "TAO",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "FET",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "TRX",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ETH",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "BTC",
-          "estimated_fee_each_side": 0.001,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ALGO",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "POL",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "OP",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "OGN",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "MANA",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "GALA",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "SAND",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.005,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 285.60734014,
       "invested_cost_aud": 0,
@@ -18405,7 +18475,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 259.62473805,
       "invested_cost_aud": 30.0,
@@ -18650,15 +18720,15 @@
     "rsi_divergence_proxy": {
       "name": "rsi_divergence_proxy",
       "simulation_only": true,
-      "estimated_equity_aud": 268.05603609,
+      "estimated_equity_aud": 270.15839351,
       "holdings": [
         {
           "symbol": "GRT",
           "quantity": 1162.6861252886006,
           "entry_price_aud": 0.02413552,
           "cost_aud": 28.09012435498051,
-          "reference_price_aud": 0.02279,
-          "indicative_sell_after_fee_aud": 26.47111918,
+          "reference_price_aud": 0.0246,
+          "indicative_sell_after_fee_aud": 28.5734766,
           "exit_plan": {
             "target_pct": 0.2,
             "stop_pct": 0.1,
@@ -18816,7 +18886,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 241.58491691,
       "invested_cost_aud": 28.09012435,
@@ -18824,7 +18894,7 @@
       "closed_trades": 21,
       "wins": 0,
       "realized_pnl_aud": -30.32495875,
-      "unrealized_pnl_aud": -1.61900516,
+      "unrealized_pnl_aud": 0.48335226,
       "recent_trades": [
         {
           "time": "2026-11-21T16:07:22.878874+00:00",
@@ -19197,7 +19267,7 @@
       ],
       "profit_factor": null,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -19211,15 +19281,15 @@
     "bollinger_reentry": {
       "name": "bollinger_reentry",
       "simulation_only": true,
-      "estimated_equity_aud": 283.12634408,
+      "estimated_equity_aud": 285.2287015,
       "holdings": [
         {
           "symbol": "GRT",
           "quantity": 1162.6861252886006,
           "entry_price_aud": 0.02413552,
           "cost_aud": 28.09012435498051,
-          "reference_price_aud": 0.02279,
-          "indicative_sell_after_fee_aud": 26.47111918,
+          "reference_price_aud": 0.0246,
+          "indicative_sell_after_fee_aud": 28.5734766,
           "exit_plan": {
             "target_pct": 0.2,
             "stop_pct": 0.1,
@@ -19424,7 +19494,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 256.6552249,
       "invested_cost_aud": 28.09012435,
@@ -19432,7 +19502,7 @@
       "closed_trades": 9,
       "wins": 0,
       "realized_pnl_aud": -15.25465075,
-      "unrealized_pnl_aud": -1.61900517,
+      "unrealized_pnl_aud": 0.48335225,
       "recent_trades": [
         {
           "time": "2026-11-21T16:07:22.878874+00:00",
@@ -19815,7 +19885,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 292.53303545,
       "invested_cost_aud": 0,
@@ -20156,7 +20226,7 @@
       ],
       "profit_factor": 0.0036,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 292.12735116,
       "invested_cost_aud": 0,
@@ -20424,6 +20494,24 @@
       ],
       "decision_log": [
         {
+          "symbol": "GRT",
+          "estimated_fee_each_side": 0.001,
+          "plan": {
+            "target_pct": 0.2,
+            "stop_pct": 0.1,
+            "net_target_pct": 0.1926011999999998,
+            "net_stop_pct": -0.10679910000000004,
+            "reward_risk": 1.803397219639489,
+            "fee_buy": 0.001,
+            "fee_sell": 0.001,
+            "estimated_extra_cost_pct": 0.005,
+            "method": "median absolute observed price move; not a forecast"
+          },
+          "approved": false,
+          "market_regime": "range",
+          "reason": "Correlated exposure limit"
+        },
+        {
           "symbol": "ARB",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -20621,18 +20709,11 @@
           "plan": null,
           "approved": false,
           "reason": "Insufficient history or poor net reward/risk"
-        },
-        {
-          "symbol": "ARB",
-          "estimated_fee_each_side": 0.01,
-          "plan": null,
-          "approved": false,
-          "reason": "Insufficient history or poor net reward/risk"
         }
       ],
       "profit_factor": 0.0568,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 217.56495087,
       "invested_cost_aud": 60.0,
@@ -21023,7 +21104,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 278.37443038,
       "invested_cost_aud": 0,
@@ -21424,7 +21505,7 @@
       ],
       "profit_factor": 0.14,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 261.70375176,
       "invested_cost_aud": 30.0,
@@ -21805,7 +21886,7 @@
       ],
       "profit_factor": 0.1663,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 293.74932978,
       "invested_cost_aud": 0,
@@ -22079,6 +22160,13 @@
           "reason": "Insufficient history or poor net reward/risk"
         },
         {
+          "symbol": "MKR",
+          "estimated_fee_each_side": 0.001,
+          "plan": null,
+          "approved": false,
+          "reason": "Insufficient history or poor net reward/risk"
+        },
+        {
           "symbol": "ATOM",
           "estimated_fee_each_side": 0.01,
           "plan": null,
@@ -22208,29 +22296,11 @@
           "approved": false,
           "market_regime": "downtrend",
           "reason": "Market regime filter"
-        },
-        {
-          "symbol": "AAVE",
-          "estimated_fee_each_side": 0.001,
-          "plan": {
-            "target_pct": 0.09663922256714841,
-            "stop_pct": 0.048319611283574204,
-            "net_target_pct": 0.08944704076123677,
-            "net_stop_pct": -0.05522202038061829,
-            "reward_risk": 1.619771246048627,
-            "fee_buy": 0.001,
-            "fee_sell": 0.001,
-            "estimated_extra_cost_pct": 0.005,
-            "method": "median absolute observed price move; not a forecast"
-          },
-          "approved": false,
-          "market_regime": "downtrend",
-          "reason": "Market regime filter"
         }
       ],
       "profit_factor": null,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 300.0,
       "invested_cost_aud": 0,
@@ -22390,7 +22460,7 @@
       ],
       "profit_factor": 0.131,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 292.5451065,
       "invested_cost_aud": 0,
@@ -22771,7 +22841,7 @@
       ],
       "profit_factor": 0.0035,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 291.72779504,
       "invested_cost_aud": 0,
@@ -23152,7 +23222,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 289.14334917,
       "invested_cost_aud": 0,
@@ -23533,7 +23603,7 @@
       ],
       "profit_factor": 0.0,
       "valuation_note": "Reference-price estimate, not executable; spread/slippage unverified",
-      "last_run": "2026-11-21T19:04:45.986541+00:00",
+      "last_run": "2026-11-21T19:31:23.592670+00:00",
       "starting_balance_aud": 300,
       "cash_aud": 292.38943287,
       "invested_cost_aud": 0,
@@ -23726,7 +23796,7 @@
       ]
     }
   },
-  "last_run": "2026-11-21T19:04:45.604240+00:00",
+  "last_run": "2026-11-21T19:31:22.972226+00:00",
   "starting_balance_aud": 300,
   "cash_aud": 154.82722308228065,
   "holdings": [
@@ -23737,17 +23807,17 @@
       "market_type": "exchange",
       "buy_fee_rate_assumed": 0.001,
       "sell_fee_rate_assumed": 0.001,
-      "estimated_sell_aud": 60.43838224,
-      "estimated_net_pnl_aud": 0.43838224,
+      "estimated_sell_aud": 60.5779628,
+      "estimated_net_pnl_aud": 0.5779628,
       "estimate_status": "estimated",
       "source": "CoinJar Exchange public order book",
-      "best_bid_aud": 12.99,
-      "best_ask_aud": 13.12,
-      "spread_pct": 0.99085,
-      "quote_observed_at": "2026-11-21T19:04:48.131097+00:00",
+      "best_bid_aud": 13.02,
+      "best_ask_aud": 13.09,
+      "spread_pct": 0.53476,
+      "quote_observed_at": "2026-11-21T19:31:26.543755+00:00",
       "entry_aud": 12.87,
       "reference_price_aud": 12.87,
-      "reference_observed_at": "2026-11-21T19:04:45.604240+00:00",
+      "reference_observed_at": "2026-11-21T19:31:22.972226+00:00",
       "reference_price_source": "CoinJar Exchange"
     },
     {
@@ -23757,24 +23827,24 @@
       "market_type": "exchange",
       "buy_fee_rate_assumed": 0.001,
       "sell_fee_rate_assumed": 0.001,
-      "estimated_sell_aud": 27.1010052,
-      "estimated_net_pnl_aud": -0.98911916,
+      "estimated_sell_aud": 26.9998401,
+      "estimated_net_pnl_aud": -1.09028425,
       "estimate_status": "estimated",
       "source": "CoinJar Exchange public order book",
-      "best_bid_aud": 0.02411,
-      "best_ask_aud": 0.02479,
-      "spread_pct": 2.74304,
-      "quote_observed_at": "2026-11-21T19:04:48.411744+00:00",
+      "best_bid_aud": 0.02402,
+      "best_ask_aud": 0.02463,
+      "spread_pct": 2.47665,
+      "quote_observed_at": "2026-11-21T19:31:26.697680+00:00",
       "entry_aud": 0.02494,
-      "reference_price_aud": 0.02279,
-      "reference_observed_at": "2026-11-21T19:04:45.604240+00:00",
+      "reference_price_aud": 0.0246,
+      "reference_observed_at": "2026-11-21T19:31:22.972226+00:00",
       "reference_price_source": "CoinJar Exchange"
     }
   ],
   "market_data_status": "published_market_list",
   "market_estimates_note": "Read-only snapshot; estimated, not executable quotes. App-only sale prices unavailable. Existing purchases retain original recorded costs.",
   "pullback": {
-    "last_run": "2026-11-21T19:04:45.656365+00:00",
+    "last_run": "2026-11-21T19:31:23.046928+00:00",
     "cash_aud": 210.54844077734276,
     "holdings": [
       {
@@ -23784,17 +23854,17 @@
         "market_type": "exchange",
         "buy_fee_rate_assumed": 0.001,
         "sell_fee_rate_assumed": 0.001,
-        "estimated_sell_aud": 30.74474227,
-        "estimated_net_pnl_aud": 0.74474227,
+        "estimated_sell_aud": 30.81574629,
+        "estimated_net_pnl_aud": 0.81574629,
         "estimate_status": "estimated",
         "source": "CoinJar Exchange public order book",
-        "best_bid_aud": 12.99,
-        "best_ask_aud": 13.12,
-        "spread_pct": 0.99085,
-        "quote_observed_at": "2026-11-21T19:04:48.471832+00:00",
+        "best_bid_aud": 13.02,
+        "best_ask_aud": 13.09,
+        "spread_pct": 0.53476,
+        "quote_observed_at": "2026-11-21T19:31:26.719512+00:00",
         "entry_aud": 12.65,
         "reference_price_aud": 12.87,
-        "reference_observed_at": "2026-11-21T19:04:45.656365+00:00"
+        "reference_observed_at": "2026-11-21T19:31:23.046928+00:00"
       },
       {
         "symbol": "AAVE",
@@ -23803,17 +23873,17 @@
         "market_type": "exchange",
         "buy_fee_rate_assumed": 0.001,
         "sell_fee_rate_assumed": 0.001,
-        "estimated_sell_aud": 29.27926814,
-        "estimated_net_pnl_aud": -0.72073186,
+        "estimated_sell_aud": 29.12100182,
+        "estimated_net_pnl_aud": -0.87899818,
         "estimate_status": "estimated",
         "source": "CoinJar Exchange public order book",
-        "best_bid_aud": 148.0,
-        "best_ask_aud": 150.2,
-        "spread_pct": 1.46471,
-        "quote_observed_at": "2026-11-21T19:04:48.775320+00:00",
+        "best_bid_aud": 147.2,
+        "best_ask_aud": 149.3,
+        "spread_pct": 1.40656,
+        "quote_observed_at": "2026-11-21T19:31:26.829627+00:00",
         "entry_aud": 151.34,
         "reference_price_aud": 151.2,
-        "reference_observed_at": "2026-11-21T19:04:45.656365+00:00"
+        "reference_observed_at": "2026-11-21T19:31:23.046928+00:00"
       }
     ],
     "trades": [
